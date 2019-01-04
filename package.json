@@ -1,0 +1,24 @@
+{
+  "name": "msgpack-test",
+  "version": "0.1.0",
+  "description": "msgpack vs JSON test",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack -d",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "msgpack",
+    "typescript",
+    "JSON"
+  ],
+  "author": "Miroslav Kubelík (koubel@seznam.cz)",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "ts-loader": "^5.3.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0"
+  }
+}
