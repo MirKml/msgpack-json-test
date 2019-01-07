@@ -16,6 +16,9 @@
   "author": "Miroslav Kubelík (koubel@seznam.cz)",
   "license": "GPL-3.0-or-later",
   "devDependencies": {
+    "@types/lodash": "^4.14.119",
+    "@types/node": "^10.12.18",
+    "lodash": "^4.17.11",
     "ts-loader": "^5.3.2",
     "typescript": "^3.2.2",
     "webpack": "^4.28.3",
