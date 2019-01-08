@@ -27,12 +27,12 @@ Testing for array of 50 000 object copies
 encode - MsgPack: 4307 ms JSON: 1479 ms  
 decode - MsgPack: 13114 ms JSON: 2758 ms
 
-In IE (only test for 5000 rows, more freezes the browser)
+In IE (only test for 5000 operations, more freeze the browser)
 
 5000 x encode same object - MsgPack: 1024 ms JSON: 92 ms  
 5000 x decode same object - MsgPack: 830 ms JSON: 60 ms
 
-In Edge (only test for 5000 rows, more freezes the browser)
+In Edge (only test for 5000 operations, more freezes the browser)
 
 5000 x encode same object - MsgPack: 4197 ms JSON: 79 ms  
 5000 x decode same object - MsgPack: 2679 ms JSON: 7 ms
