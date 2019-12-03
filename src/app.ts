@@ -1,5 +1,6 @@
 import * as msgPack from "./msgpack";
-import { isEqual, cloneDeep } from "lodash";
+import cloneDeep from "lodash.clonedeep"
+import isEqual from "lodash.isequal"
 
 main();
 
